@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_odesaisrael_phone_buttons",
+  "info": {
+    "displayName": "Phone Button",
+    "icon": "phone-alt"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "tel": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

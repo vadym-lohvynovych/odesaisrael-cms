@@ -19,6 +19,46 @@
       "allowedTypes": [
         "images"
       ]
+    },
+    "menu": {
+      "type": "component",
+      "repeatable": false,
+      "component": "odesaisrael.menu",
+      "required": true
+    },
+    "welcomeSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "odesaisrael.welcome",
+      "required": true
+    },
+    "projectsSections": {
+      "type": "component",
+      "repeatable": true,
+      "component": "odesaisrael.projects-section",
+      "required": true
+    },
+    "reviewsSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "odesaisrael.reviews-section",
+      "required": false
+    },
+    "contactUsSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "odesaisrael.contact-us-section"
+    },
+    "phoneButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "odesaisrael.phone-button"
+    },
+    "fixedButtons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "odesaisrael.fixed-button",
+      "required": true
     }
   }
 }

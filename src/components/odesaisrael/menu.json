@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_odesaisrael_menus",
+  "info": {
+    "displayName": "menu",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "home": {
+      "type": "string",
+      "required": true
+    },
+    "projects": {
+      "type": "string",
+      "required": true
+    },
+    "team": {
+      "type": "string",
+      "required": true
+    },
+    "reviews": {
+      "type": "string",
+      "required": true
+    },
+    "contactUs": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_odesaisrael_teams",
+  "info": {
+    "displayName": "Team Section",
+    "icon": "users",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "teamMembers": {
+      "type": "component",
+      "repeatable": true,
+      "component": "odesaisrael.team-member",
+      "required": true
+    }
+  }
+}
