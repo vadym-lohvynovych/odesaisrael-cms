@@ -60,7 +60,7 @@
       "component": "odesaisrael.fixed-button",
       "required": true
     },
-    "reviews": {
+    "reviewsSection": {
       "type": "component",
       "repeatable": false,
       "component": "odesaisrael.review-section"
