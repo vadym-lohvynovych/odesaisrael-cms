@@ -14,7 +14,7 @@
     "teamMembers": {
       "type": "component",
       "repeatable": true,
-      "component": "odesaisrael.review",
+      "component": "odesaisrael.team-member",
       "required": true
     }
   }

@@ -38,12 +38,6 @@
       "component": "odesaisrael.projects-section",
       "required": true
     },
-    "teamSection": {
-      "type": "component",
-      "repeatable": false,
-      "component": "odesaisrael.reviews-section",
-      "required": false
-    },
     "contactUsSection": {
       "type": "component",
       "repeatable": false,
@@ -59,6 +53,11 @@
       "repeatable": true,
       "component": "odesaisrael.fixed-button",
       "required": true
+    },
+    "teamSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "odesaisrael.reviews-section"
     },
     "reviewsSection": {
       "type": "component",
