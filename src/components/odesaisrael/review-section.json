@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_odesaisrael_review_sections",
+  "info": {
+    "displayName": "Review Section",
+    "icon": "ellipsis-h"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "reviews": {
+      "displayName": "Review Item",
+      "type": "component",
+      "repeatable": true,
+      "component": "odesaisrael.review-item",
+      "required": true
+    }
+  }
+}

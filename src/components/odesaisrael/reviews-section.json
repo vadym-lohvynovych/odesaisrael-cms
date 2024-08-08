@@ -1,8 +1,9 @@
 {
   "collectionName": "components_odesaisrael_reviews_sections",
   "info": {
-    "displayName": "Reviews Section",
-    "icon": "bars"
+    "displayName": "Team Section",
+    "icon": "bars",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -10,7 +11,7 @@
       "type": "string",
       "required": true
     },
-    "reviews": {
+    "teamMembers": {
       "type": "component",
       "repeatable": true,
       "component": "odesaisrael.review",

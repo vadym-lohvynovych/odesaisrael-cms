@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_odesaisrael_review_items",
+  "info": {
+    "displayName": "Review Item",
+    "icon": "angle-up"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text"
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

@@ -38,7 +38,7 @@
       "component": "odesaisrael.projects-section",
       "required": true
     },
-    "reviewsSection": {
+    "teamSection": {
       "type": "component",
       "repeatable": false,
       "component": "odesaisrael.reviews-section",
@@ -59,6 +59,11 @@
       "repeatable": true,
       "component": "odesaisrael.fixed-button",
       "required": true
+    },
+    "reviews": {
+      "type": "component",
+      "repeatable": false,
+      "component": "odesaisrael.review-section"
     }
   }
 }
