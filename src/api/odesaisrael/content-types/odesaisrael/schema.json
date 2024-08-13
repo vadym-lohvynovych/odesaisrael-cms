@@ -63,6 +63,14 @@
       "type": "component",
       "repeatable": false,
       "component": "odesaisrael.review-section"
+    },
+    "footerLogo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
     }
   }
 }

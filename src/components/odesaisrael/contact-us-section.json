@@ -2,7 +2,8 @@
   "collectionName": "components_odesaisrael_contact_us_sections",
   "info": {
     "displayName": "Contact Us Section",
-    "icon": "address-book"
+    "icon": "address-book",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -11,12 +12,12 @@
       "required": true
     },
     "image": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "name": {
       "type": "string",
@@ -35,6 +36,14 @@
       "required": true
     },
     "submitText": {
+      "type": "string",
+      "required": true
+    },
+    "successText": {
+      "type": "string",
+      "required": true
+    },
+    "errorText": {
       "type": "string",
       "required": true
     }
