@@ -65,11 +65,15 @@
       "component": "odesaisrael.review-section"
     },
     "footerLogo": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "openProjectButtonText": {
+      "type": "string",
       "required": true
     }
   }

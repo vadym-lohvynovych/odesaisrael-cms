@@ -16,10 +16,6 @@
       "repeatable": true,
       "component": "odesaisrael.project",
       "required": true
-    },
-    "openButtonText": {
-      "type": "string",
-      "required": true
     }
   }
 }
