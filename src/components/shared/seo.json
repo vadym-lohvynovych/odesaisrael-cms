@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_shared_seos",
+  "info": {
+    "displayName": "Seo",
+    "icon": "universal-access"
+  },
+  "options": {},
+  "attributes": {
+    "siteTitle": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
